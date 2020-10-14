@@ -19,7 +19,7 @@ const breakPoints = [
 const Productions = () => (
 <>
 
-    <div class="productions pad-sm" id="productions">
+    <div className="productions pad-sm" id="productions">
         <SectionTitle title="Produções em Números" sub=" Seção destinada aos resultados numéricos de todos os produtos
             que foram ou estão
             sendo produzidos para distribuição da população" />

@@ -17,14 +17,14 @@ const breakPoints = [
 const Actions = () => (
       
 <>
-<div class="actions pad-sm">
+<div className="actions pad-sm">
         <SectionTitle title="Nossas Ações" sub="Seção destinada as ações realizadas pela UFC e por pessoas
             externas para
             com o enfrentamento aos danos causados pelo novo
             coronavírus (COVID-19)"/> 
             
             </div>
-            <div class="carouel">
+            <div className="carouel">
         <Carousel breakPoints={breakPoints} >
              
              {/* AS IMAGENS DEVEM ESTAR EM 1920/1080 PARA O BOM FUNCIONAMENTO SEM MAIS ALTERAÇÕES NO ESTILO DO COMPONENTE*/}

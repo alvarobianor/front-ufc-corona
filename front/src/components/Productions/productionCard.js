@@ -6,9 +6,9 @@ class ProductionsCard extends Component {
     render() {
         return (
             <>
-                <div class="productions-card">
-                    <h1 class="card_title">{this.props.title}</h1>
-                    <img src={this.props.img} alt="productions-graphic" class="card_img" />
+                <div className="productions-card">
+                    <h1 className="card_title">{this.props.title}</h1>
+                    <img src={this.props.img} alt="productions-graphic" className="card_img" />
                 </div>
             </>
         );

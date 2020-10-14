@@ -5,10 +5,10 @@ class Box extends Component {
 
     render() {
 return (
-            <div class="box">
-            <h2 class="box__title">{this.props.title}</h2>
-            <h2 class="box__state">CEARÁ</h2>
-            <h2 class="box__num">{this.props.num}</h2>
+            <div className="box">
+            <h2 className="box__title">{this.props.title}</h2>
+            <h2 className="box__state">CEARÁ</h2>
+            <h2 className="box__num">{this.props.num}</h2>
             </div>
          
       );

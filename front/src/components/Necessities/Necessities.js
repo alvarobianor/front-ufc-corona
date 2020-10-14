@@ -9,12 +9,12 @@ import Elastic from '../../assets/img/elastic.jpg'
 
 const Necessities = () => (
 <>
-<div class="necessities pad-sm" id="necessity">
+<div className="necessities pad-sm" id="necessity">
         <SectionTitle title="Nossas Necessidades" sub=" Seção destinada aos materiais, produtos, serviços ou insumos
             necessários
           para que as ações sejam feitas." />
            
-            <div class="card-space" >
+            <div className="card-space" >
                 <NecessityCard  img={Material3D} title="Filamento para impressão 3D" />
                 <NecessityCard  img={Acetate} title="Folhas de acetato" />
                 <NecessityCard  img={Elastic} title="Ligas Elásticas de Látex" />

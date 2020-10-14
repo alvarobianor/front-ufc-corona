@@ -5,7 +5,7 @@ import Footer from '../Footer'
 const NecessityCard = () => (
 <>
 
-<div class="necessity-page">
+<div className="necessity-page">
         <Navbar />
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,

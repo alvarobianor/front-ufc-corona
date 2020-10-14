@@ -10,13 +10,13 @@ render(){
     return(
         <>
 
-        <div class="section-title" >
-                <h1 class="section-title__main">{this.props.title}</h1>
-                <h2 class="section-title__sub">
+        <div className="section-title" >
+                <h1 className="section-title__main">{this.props.title}</h1>
+                <h2 className="section-title__sub">
                     {this.props.sub}
                     <slot></slot>
                 </h2>
-                <hr class="section-title__underline" />
+                <hr className="section-title__underline" />
         </div>
 
         </>

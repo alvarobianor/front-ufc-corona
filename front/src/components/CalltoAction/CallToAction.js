@@ -5,7 +5,7 @@ import "./style.scss";
 
 const CallToAction = () => (
 <>
-<div class="call-to-action"  id="necessits">
+<div className="call-to-action"  id="necessits">
       
         <img
             id="call-to-action-img"
